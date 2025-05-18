@@ -106,3 +106,5 @@ python -m spacy download fr_core_news_md
 - Phase 2: Enhanced demographic segmentation
 - Phase 3: Mobile app for field surveys
 - Phase 4: Integration with transport payment systems for direct feedback
+
+Dashboard Link : https://risa-hackthon-iye1.vercel.app/ 
