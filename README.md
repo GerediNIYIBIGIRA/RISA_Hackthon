@@ -107,4 +107,58 @@ python -m spacy download fr_core_news_md
 - Phase 3: Mobile app for field surveys
 - Phase 4: Integration with transport payment systems for direct feedback
 
+<<<<<<< HEAD
+## Contributors
+- [Your Name] - Lead Developer
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+- Rwanda Utilities Regulatory Authority (RURA)
+- Ministry of Infrastructure
+- Rwanda Public Transport Authority
+
+
+## System archetecture
+
+                        ┌─────────────────────────────┐
+                        │       Client (Browser)      │
+                        │  (User interacts via UI)    │
+                        └────────────┬────────────────┘
+                                     │ HTTP Requests (Axios)
+                                     ▼
+                   ┌────────────────────────────────────┐
+                   │         React Frontend (SPA)        │
+                   │  - Tailwind CSS for styling         │
+                   │  - React Components:                │
+                   │    • Dashboard, Login, Alerts       │
+                   │    • Geographic & Topic Analysis    │
+                   │    • Shared UI: Header, Sidebar     │
+                   │  - Sends API requests to backend    │
+                   └────────────────┬────────────────────┘
+                                    │
+                           API Calls (REST)
+                                    ▼
+                  ┌────────────────────────────────────┐
+                  │            Node.js Backend          │
+                  │  server.js (Express App)            │
+                  │  - REST API endpoints               │
+                  │  - JWT Auth Middleware              │
+                  │  - Routes:                          │
+                  │     • /auth (auth.js)               │
+                  │     • /alerts (alerts.js)           │
+                  │     • /sentiment (sentiment.js)     │
+                  └────────┬──────────────┬─────────────┘
+                           │              │
+                           ▼              ▼
+        ┌────────────────────────┐   ┌────────────────────────────┐
+        │   NLP Engine (Python)  │   │   MongoDB Models (Mongoose)│
+        │  sentiment_analyzer.py │   │   - User, Alert, Sentiment │
+        │  - Analyzes sentiment  │   │   - SentimentTrend, etc.   │
+        │  - Exposed to Node.js  │   └────────────────────────────┘
+        └────────────────────────┘
+
+=======
 Dashboard Link : https://risa-hackthon-iye1.vercel.app/ 
+>>>>>>> 41e2b9fe783f26b9ac96ca90ebb49111d2b328f9
