@@ -1,3 +1,5 @@
+## Dashboard Link : https://risa-hackthon-iye1.vercel.app/ 
+
 # Rwanda Transport Fare Sentiment Analysis System
 
 ## Overview
@@ -109,15 +111,10 @@ python -m spacy download fr_core_news_md
 
 <<<<<<< HEAD
 ## Contributors
-- [Your Name] - Lead Developer
+- Geredi NIYIBIGIRA - Lead Developer
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgements
-- Rwanda Utilities Regulatory Authority (RURA)
-- Ministry of Infrastructure
-- Rwanda Public Transport Authority
+
 
 
 ## System archetecture
@@ -161,4 +158,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 =======
 Dashboard Link : https://risa-hackthon-iye1.vercel.app/ 
->>>>>>> 41e2b9fe783f26b9ac96ca90ebb49111d2b328f9
+
