@@ -107,6 +107,7 @@ python -m spacy download fr_core_news_md
 - Phase 3: Mobile app for field surveys
 - Phase 4: Integration with transport payment systems for direct feedback
 
+<<<<<<< HEAD
 ## Contributors
 - [Your Name] - Lead Developer
 
@@ -158,3 +159,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
         │  - Exposed to Node.js  │   └────────────────────────────┘
         └────────────────────────┘
 
+=======
+Dashboard Link : https://risa-hackthon-iye1.vercel.app/ 
+>>>>>>> 41e2b9fe783f26b9ac96ca90ebb49111d2b328f9
